@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  /* 2 equal columns */
+    /*grid-template-rows: 1fr 1fr;     /* 2 equal rows */
+    gap: 10px;                       /* Space between grid items */
+}
+
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.movie{
+    background-color: aquamarine;
+}
